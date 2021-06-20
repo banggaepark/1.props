@@ -5,19 +5,18 @@ import Books from '../static_data/Books';
 
 
 class BookList extends Component{
-
-    const { book } = this.props;
     render(){
+        const { books } = this.props;
         return(
             <List>
                 <ListItem>
-                    Item01
+                  { books[0].title }
                 </ListItem>
                 <ListItem>
                     Item02
                 </ListItem>
-                <ListItem>
-                    Item03   dsfasdfsdfsd
+                <ListItem>   
+                    Item03
                 </ListItem>
                 <ListItem>
                     Item04
