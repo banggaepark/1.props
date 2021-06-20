@@ -13,7 +13,7 @@ class BookList extends Component{
                   { books[0].title }
                 </ListItem>
                 <ListItem>
-                    Item02
+                { books[0].title }
                 </ListItem>
                 <ListItem>   
                     Item03
