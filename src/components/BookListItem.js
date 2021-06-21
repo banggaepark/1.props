@@ -13,7 +13,7 @@ const styles = {
     },
 }
 
-//git 테스트  111122223333  sds
+//git 테스트 이번에는 mini에서 수정
 class BookListItem extends Component {
     render() {
         const { book, classes } = this.props;
